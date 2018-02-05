@@ -1,4 +1,4 @@
-FROM maven:3.2-jdk-8
+FROM maven:3.5.2-jdk-8
 
 RUN apt-get update \
     && apt-get install --no-install-recommends -y openjfx \
